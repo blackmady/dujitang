@@ -2,6 +2,7 @@
   "name": "dujitang",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "author": {
     "name":"arcoon",
     "email": "cg3385@163.com"

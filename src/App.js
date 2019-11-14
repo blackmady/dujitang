@@ -2,7 +2,7 @@
  * @Author: None
  * @LastEditors: None
  * @Date: 2019-11-14 12:27:50
- * @LastEditTime: 2019-11-14 17:57:02
+ * @LastEditTime: 2019-11-14 18:18:29
  * @Description: 
  */
 import React,{useState,useEffect} from 'react';
@@ -11,7 +11,7 @@ function Jitang({ hours = 0, minutes = 0, seconds = 0 }) {
   const [jitang,updateJitang]=useState('')
   const [a,setA]=useState([])
   async function data(){
-    return atob((await jt('/jt.json'))[`7sZlZIzXCEe'`.replace(/\d|Z|X|E|z|'/g,'').toLowerCase()]([2][0])).split(',')
+    return atob((await jt('./jt.json'))[`7sZlZIzXCEe'`.replace(/\d|Z|X|E|z|'/g,'').toLowerCase()]([2][0])).split(',')
   }
   async function getList(){
     return await data()
