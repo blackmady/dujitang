@@ -2,7 +2,7 @@
  * @Author: None
  * @LastEditors: None
  * @Date: 2019-11-14 12:27:50
- * @LastEditTime: 2019-11-14 18:18:29
+ * @LastEditTime: 2019-11-14 18:23:20
  * @Description: 
  */
 import React,{useState,useEffect} from 'react';
@@ -44,7 +44,7 @@ function Jitang({ hours = 0, minutes = 0, seconds = 0 }) {
               <div className="float-right" style={{paddingTop:'0px'}}>
                 <a
                   className="btn btn-primary btn-filled btn-xs"
-                  href="https://github.com/blackmady/jitang">开源</a>
+                  href="https://github.com/blackmady/dujitang">开源</a>
               </div>
             </div>
           </div>
