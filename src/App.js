@@ -2,7 +2,7 @@
  * @Author: None
  * @LastEditors: None
  * @Date: 2019-11-14 12:27:50
- * @LastEditTime: 2019-11-14 18:40:31
+ * @LastEditTime: 2020-04-19 22:16:24
  * @Description: 
  */
 import React,{useState,useEffect} from 'react';
@@ -56,7 +56,7 @@ function Jitang() {
         <div className="container">
           <div className="row">
             <div className="col text-center">
-              <p className="lead text">截屏分享朋友</p>
+              <p className="lead text"><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></p>
               <span className="btn btn-primary btn-filled btn-xs">
                 <a href="/" id="getOne" className="btn btn-primary btn-filled btn-xs" onClick={(e)=>getOne(e)}>我要的毒鸡汤</a>
               </span>
