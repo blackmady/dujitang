@@ -7,7 +7,7 @@
  -->
 # 毒鸡汤
 
-[DEMO](https://blackmady.github.io/dujitang/)
+[DEMO](https://gitee.com/none/dujitang)
 
 ### 依赖
 > react,jszip,jszip-utils
